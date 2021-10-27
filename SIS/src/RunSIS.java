@@ -7,9 +7,10 @@ public class RunSIS
 			
 		public static void main(String[] args)
 			{
-
+				
+				//need to digit strip the text file
+				
 				lisOfStudents.add(new Student("SISFile.txt"));
-
 
 			}
 	
