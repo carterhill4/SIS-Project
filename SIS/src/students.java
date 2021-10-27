@@ -1,5 +1,5 @@
 
-public class students
+public class Student
 {
 	//broken
 	private String firstName;
@@ -11,7 +11,7 @@ public class students
 	private String firstGrade;
 	private String secondGrade;
 	private String thirdGrade;
-	public students(String fn, String ln, double g, String fc, String sc, String tc, String fg, String sg, String tg)
+	public Student(String fn, String ln, double g, String fc, String sc, String tc, String fg, String sg, String tg)
 	{
 		firstName = fn;
 		lastName = ln;
