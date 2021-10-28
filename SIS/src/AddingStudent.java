@@ -7,7 +7,7 @@ public class AddingStudent {
 
 	public static void AddingStudents() {
 		
-		DeletingStudent.listingStudent();
+		ListingStudents.listingStudent();
 		
 		System.out.println(" ");
 		Scanner userInput = new Scanner(System.in);
@@ -56,7 +56,7 @@ public class AddingStudent {
 		
 		Student name = new Student(firstName, lastName, gpa, firstClass, secondClass, thirdClass, firstGrade, secondGrade, thirdGrade);
 		
-		DeletingStudent.listingStudent();
+		ListingStudents.listingStudent();
 		
 	}
 	
