@@ -1,6 +1,7 @@
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 import java.io.IOException;
 
@@ -9,6 +10,8 @@ public class RunSIS
 
 		static ArrayList <Student> listOfStudents = new ArrayList<Student>();
 			
+		Scanner userInput = new Scanner(System.in);
+		
 	public static void main(String[] args) throws IOException
 		{
 				
@@ -24,14 +27,9 @@ public class RunSIS
 							splitArray [2], splitArray [3], splitArray [4], splitArray [5], splitArray [6], splitArray [7]));
 				}
 				
-
-				//need to digit strip the text file
 				Menu.whatWouldYouDo();
-
 				
-//				lisOfStudents.add(new Student("SISFile.txt"));
-
-
+				Collections.sort(listOfStudents, new LastnameSorter());
 		}
 
 	
