@@ -27,10 +27,12 @@ public class RunSIS
 							splitArray [2], splitArray [3], splitArray [4], splitArray [5], splitArray [6], splitArray [7]));
 				}
 				
+
 				Menu.whatWouldYouDo();
 				
 				Collections.sort(listOfStudents, new LastnameSorter());
 		}
+
 
 	
 	}
