@@ -11,7 +11,7 @@ public class RunSIS
 				
 				//need to digit strip the text file
 				
-				lisOfStudents.add(new Student("SISFile.txt"));
+				Student.lisOfStudents.add(new Student("SISFile.txt"));
 
 			}
 
