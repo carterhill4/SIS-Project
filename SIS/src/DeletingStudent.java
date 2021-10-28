@@ -14,7 +14,7 @@ public class DeletingStudent
 		{
 		Scanner userIntInput = new Scanner(System.in);
 		System.out.println("Which number of student would you like to delete?");
-		int deletedStudent = userIntInput.nextLine();
+		int deletedStudent = userIntInput.nextInt();
 		Student.listOfStudents.remove(deletedStudent);
 		}
 

@@ -10,8 +10,10 @@ public class RunSIS
 			{
 				
 				//need to digit strip the text file
+				Menu.whatWouldYouDo();
+
 				
-				lisOfStudents.add(new Student("SISFile.txt"));
+//				lisOfStudents.add(new Student("SISFile.txt"));
 
 			}
 
