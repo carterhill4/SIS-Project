@@ -8,6 +8,8 @@ public class ListingStudents {
 		System.out.println(RunSIS.listOfStudents.get(i).getFirstName() + " " + RunSIS.listOfStudents.get(i).getLastName() + " " + RunSIS.listOfStudents.get(i).getGpa());
 
 		}
+	
+	 System.out.println("hi");
 	}
 	
 }

@@ -7,6 +7,8 @@ public class AddingStudent {
 
 	public static void AddingStudents() {
 		
+		 System.out.println("hi");
+		
 		ListingStudents.listingStudent();
 		
 		System.out.println(" ");
