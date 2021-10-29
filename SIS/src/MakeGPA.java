@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 public class MakeGPA
 	{
-	//static ArrayList<listOfStudents> roster = new ArrayList<listOfStudents>();
+	public static ArrayList<Student> roster = new ArrayList<Student>();
 	
 	public static void fillRoster() throws IOException
 		{
@@ -14,10 +14,11 @@ public class MakeGPA
 			{
 			String line = myFile.nextLine();
 			String [] studentAtributes = line.split(" ");
-			//roster.add(new Student(studentAtributes[0], studentAtributes[1], 
-					//studentAtributes[2], studentAtributes[3],studentAtributes[4],
-					//studentAtributes[5],studentAtributes[6],studentAtributes[7], 
-					//calculateGpa(studentAtributes[3], studentAtributes[5], studentAtributes[7])));
+			roster.add(new Student(studentAtributes[0], studentAtributes[1], 
+					calculateGpa(studentAtributes[3], studentAtributes[5], studentAtributes[7]),
+					studentAtributes[2], studentAtributes[3],studentAtributes[4],
+					studentAtributes[5],studentAtributes[6],studentAtributes[7] 
+					));
 			}
 		}
 		
@@ -236,7 +237,9 @@ public class MakeGPA
 		
 		
 		
-		return (classOne + classTwo + classThree) / 3;
+		double cumGpa = (classOne + classTwo + classThree) / 3;
+		
+		return cumGpa;
 		
 		}
 
