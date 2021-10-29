@@ -7,7 +7,6 @@ public class AddingStudent {
 
 	public static void AddingStudents() {
 		
-		 System.out.println("hi");
 		
 		ListingStudents.listingStudent();
 		
@@ -56,7 +55,7 @@ public class AddingStudent {
 		System.out.println("What is their third class?");
 		String thirdGrade = userInput9.nextLine();
 		
-		Student name = new Student(firstName, lastName, gpa, firstClass, secondClass, thirdClass, firstGrade, secondGrade, thirdGrade);
+		RunSIS.listOfStudents.add(new Student (firstName, lastName, gpa, firstClass, secondClass, thirdClass, firstGrade, secondGrade, thirdGrade));
 		
 		ListingStudents.listingStudent();
 		
