@@ -24,11 +24,11 @@ public static void prnStu()
 
 public static void css()
 {
-	System.out.println("1. DO you want to change a student Schedule ?");
-	System.out.println("2.or do you want to return to menu");
+	System.out.println("1. Do you want to change a student schedule");
+	System.out.println("2. or do you want to return to menu?");
 	int intChoice = userInput.nextInt();
 	if(intChoice==1) {
-	System.out.println("which student do you want to change?");
+	System.out.println("Which student do you want to change?");
 	int studentChoice= userInput.nextInt();
 	System.out.println(RunSIS.listOfStudents.get(studentChoice).getFirstClass());	
 	System.out.println(RunSIS.listOfStudents.get(studentChoice).getSecondClass());	
