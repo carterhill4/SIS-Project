@@ -7,7 +7,7 @@ public class ChangeGrade
 		System.out.println("Which student's grade would you like to change?");
 		String studentChoice = tanner.nextLine();
 		
-		switch(studentChoice)
+		
 		
 	}
 }
