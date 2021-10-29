@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class DeletingStudent
 	{
 
-	public static void DeletingStudent()
+	public static void DeletingStudent() throws IOException
 		{
 		ListingStudents.listingStudent();
 		Scanner userIntInput = new Scanner(System.in);
