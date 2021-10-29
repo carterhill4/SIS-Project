@@ -17,8 +17,8 @@ public static void main(String [] args) throws IOException
 	
 }
 
-public static void prnStu()
-{
+public static void prnStu() throws IOException
+	{
 	ListingStudents.listingStudent();
 	}
 

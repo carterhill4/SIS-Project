@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Menu {
 
-	public static void whatWouldYouDo() {
+	public static void whatWouldYouDo() throws IOException {
 		
 		Scanner userInput1 = new Scanner(System.in);
 		System.out.println("What would you like to do? \n	(1) Add or delete a student \n	(2) Change student grades/schedule \n	(3) Sort students");
@@ -23,10 +23,10 @@ public class Menu {
 			sortStudents();
 			break;
 		}
-		// hi
+		
 	}
 	
-	public static void deleteOrAdd() {
+	public static void deleteOrAdd() throws IOException {
 			
 			Scanner userInput1 = new Scanner(System.in);
 			System.out.println("Add or Delete a student? \n	(1) Add a student \n	(2) Delete a student");
@@ -44,7 +44,7 @@ public class Menu {
 			
 		}
 	
-	public static void changeStudentorGrades() {
+	public static void changeStudentorGrades() throws IOException {
 		
 		Scanner userInput1 = new Scanner(System.in);
 		System.out.println("Change Student Grades or Schedule? \n	(1) Change Grades  \n	(2) Switch Classes");
@@ -59,7 +59,7 @@ public class Menu {
 		}
 	}
 	
-	public static void sortStudents() {
+	public static void sortStudents() throws IOException {
 		
 		Scanner userInput1 = new Scanner(System.in);
 		System.out.println("Sort Students \n	(1) Sort by last name \n	(2) Sort by GPA \n	(3) Sort by period");
