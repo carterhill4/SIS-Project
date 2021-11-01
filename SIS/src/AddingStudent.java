@@ -7,7 +7,6 @@ public class AddingStudent {
 
 	public static void AddingStudents() throws IOException {
 		
-		MakeGPA.fillRoster();
 		ListingStudents.listingStudent();
 		
 		System.out.println(" ");
