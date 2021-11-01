@@ -22,7 +22,7 @@ public static void prnStu() throws IOException
 	ListingStudents.listingStudent();
 	}
 
-public static void css()
+public static void css() throws IOException
 {
 	System.out.println("1. Do you want to change a student schedule");
 	System.out.println("2. or do you want to return to menu?");
