@@ -5,9 +5,9 @@ public class ChangeGrade
 		{
 		Scanner tanner = new Scanner(System.in);
 		
-		System.out.println("Which student's grade would you like to change?");
-		
 		int index = 1;
+		
+		System.out.println("Which student's grade would you like to change?");
 		
 		for (Student s: RunSIS.listOfStudents)
 			{
