@@ -15,5 +15,7 @@ public class ChangeGrade
 			}
 		String studentChoice = tanner.nextLine();
 		
+		//studentChoice--;
+		
 	}
 }
