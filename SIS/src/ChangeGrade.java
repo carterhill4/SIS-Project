@@ -17,7 +17,10 @@ public class ChangeGrade
 		
 		String studentChoice = tanner.nextLine();
 		
-		
-		
+		for (Student n: RunSIS.listOfStudents)
+			{
+				System.out.println(n.getFirstGrade() + n.getSecondGrade());
+			}
+	
 	}
 }
