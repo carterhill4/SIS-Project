@@ -53,7 +53,11 @@ public class Menu {
 		switch(changeStudentorGrades) {
 		
 		case 1:
-			break;
+				{
+					ChangeGrade.changeGrades();
+					break;
+				}
+			
 		case 2:
 			break;
 		}

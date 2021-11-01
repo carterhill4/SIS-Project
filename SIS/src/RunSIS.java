@@ -26,11 +26,13 @@ public class RunSIS
 					listOfStudents.add(new Student(splitArray [0], splitArray [1], 0, 
 							splitArray [2], splitArray [3], splitArray [4], splitArray [5], splitArray [6], splitArray [7]));
 				}
-				
+				System.out.println(listOfStudents.size());
 
 				Menu.whatWouldYouDo();
 				
 				Collections.sort(listOfStudents, new LastnameSorter());
+		
+				
 		}
 
 
