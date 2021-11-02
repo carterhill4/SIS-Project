@@ -30,7 +30,7 @@ public class RunSIS
 
 				Menu.whatWouldYouDo();
 				
-				Collections.sort(listOfStudents, new LastnameSorter());
+				//Collections.sort(listOfStudents, new LastnameSorter());
 		
 				
 		}
