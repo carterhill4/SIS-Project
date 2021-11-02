@@ -15,9 +15,15 @@ public class ChangeGrade
 				index++;
 			}
 		
-		String studentChoice = tanner.nextLine();
+		int studentChoice = tanner.nextInt();
 		
 		
+	System.out.println("Do you want to change" + " the grade for " + 
+	RunSIS.listOfStudents.get(studentChoice - 1).getFirstClass() + " or " + 
+	RunSIS.listOfStudents.get(studentChoice - 1).getSecondClass() + " or " + 
+	RunSIS.listOfStudents.get(studentChoice - 1).getThirdClass());
+	
+	
 		
 	}
 }
