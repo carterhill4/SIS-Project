@@ -97,7 +97,7 @@ public class AddingStudent {
 		RunSIS.listOfStudents.add(new Student (firstName, lastName, gpa, firstClass, firstGrade, secondClass, secondGrade, thirdClass, thirdGrade));
 		
 		ListingStudents.listingStudent();
-		
+		Menu.whatWouldYouDo();
 	}
 	
 }
