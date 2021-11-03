@@ -5,7 +5,7 @@ import java.io.IOException;
 public class MakeGPA
 	{
 		
-	public static double calculateGpa()
+	public static double calculateGpa(String a, String b)
 		{
 		
 		
@@ -150,6 +150,8 @@ public class MakeGPA
 			double cumGpa = (classOne + classTwo + classThree) / 3;
 			
 			return cumGpa;
+			
+			
 			
 			}
 
