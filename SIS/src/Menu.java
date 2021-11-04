@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Menu {
 
@@ -79,8 +80,17 @@ public class Menu {
 		switch(sorting) {
 		
 		case 1:
+
+				{
+					for(int i = 0; i < 25; i++)
+						{
+					Collections.sort(RunSIS.listOfStudents, new LastnameSorter());
+					//System.out.println(LastnameSorter.compare(Student s1, Student s2));
+					break;
+						}
+				}
 			
-			break;
+
 		case 2:
 			
 			break;
