@@ -8,6 +8,7 @@ public class Menu {
 
 	public static void whatWouldYouDo() throws IOException {
 		
+		System.out.println(" ");
 		Scanner userInput1 = new Scanner(System.in);
 		System.out.println("What would you like to do? \n	(1) Add or delete a student \n	(2) Change student grades/schedule \n	(3) Sort students");
 		int chooseMenu = userInput1.nextInt();
@@ -29,6 +30,7 @@ public class Menu {
 	
 	public static void deleteOrAdd() throws IOException {
 			
+		System.out.println(" ");
 			Scanner userInput1 = new Scanner(System.in);
 			System.out.println("Add or Delete a student? \n	(1) Add a student \n	(2) Delete a student");
 			int deleteOrAdd = userInput1.nextInt();
@@ -47,6 +49,7 @@ public class Menu {
 	
 	public static void changeGradesorSchedule() throws IOException {
 		
+		System.out.println(" ");
 		Scanner userInput1 = new Scanner(System.in);
 		System.out.println("Change Student Grades or Schedule? \n	(1) Change Grades  \n	(2) Switch Schedule");
 		int changeStudentorGrades = userInput1.nextInt();
@@ -69,6 +72,7 @@ public class Menu {
 	
 	public static void sortStudents() throws IOException {
 		
+		System.out.println(" ");
 		Scanner userInput1 = new Scanner(System.in);
 		System.out.println("Sort Students \n	(1) Sort by last name \n	(2) Sort by GPA \n	(3) Sort by period");
 		int sorting = userInput1.nextInt();
@@ -76,6 +80,7 @@ public class Menu {
 		switch(sorting) {
 		
 		case 1:
+
 				{
 					for(int i = 0; i < 25; i++)
 						{
@@ -85,9 +90,12 @@ public class Menu {
 						}
 				}
 			
+
 		case 2:
+			
 			break;
 		case 3:
+			
 			break;
 		}
 		

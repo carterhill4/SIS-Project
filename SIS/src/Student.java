@@ -11,16 +11,16 @@ public class Student
 	private String firstGrade;
 	private String secondGrade;
 	private String thirdGrade;
-	public Student(String fn, String ln, double g, String fc, String fg,String sc, String sg,String tc, String tg)
+	public Student(String fn, String ln, double g, String fc, String fg, String sc, String sg,String tc, String tg)
 	{
 		firstName = fn;
 		lastName = ln;
 		gpa = g;
 		firstClass = fc;
-		secondClass = sc;
-		thirdClass=tc;
 		firstGrade = fg;
+		secondClass = sc;
 		secondGrade = sg;
+		thirdClass=tc;
 		thirdGrade =tg;
 		}
 	public String getFirstName()
