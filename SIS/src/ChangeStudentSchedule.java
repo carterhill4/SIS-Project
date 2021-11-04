@@ -1,8 +1,7 @@
-//import java.io.File;
-//import java.util.ArrayList;
+
 import java.io.IOException;
 import java.util.Scanner;
-//import java.io.IOException;
+
 
 public class ChangeStudentSchedule
 	{
@@ -19,8 +18,8 @@ public static void prnStu() throws IOException
 public static void css() throws IOException
 {
 
-	System.out.println("1.Do you want to change a student Schedule ?");
-	System.out.println("2.Or do you want to return to menu");
+	System.out.println("1. Change student Schedule ");
+	System.out.println("2. Return to menu");
 
 
 
@@ -33,13 +32,13 @@ public static void css() throws IOException
 	System.out.println("1st " + RunSIS.listOfStudents.get(studentChoice).getFirstClass());	
 	System.out.println("2nd " + RunSIS.listOfStudents.get(studentChoice).getSecondClass());	
 	System.out.println("3rd " + RunSIS.listOfStudents.get(studentChoice).getThirdClass());
-	System.out.println("which class do you want to change");
+	System.out.println("Which class do you want to change");
 	int changeChoice= userInput.nextInt();
 	switch(changeChoice)
 	{
 		case 1:
 			{
-			System.out.println("what class do you want to replace it with?");
+			System.out.println("What class do you want to replace it with?");
 			System.out.println("1. Algebra");
 			System.out.println("2. Biology ");
 			System.out.println("3. English");
@@ -49,7 +48,7 @@ public static void css() throws IOException
 				case 1:
 					{
 						RunSIS.listOfStudents.get(studentChoice).setFirstClass("Algebra");	
-						System.out.println("you switched the class");
+						System.out.println("You successfully switched the class");
 						css();
 						break;
 					}
@@ -165,7 +164,7 @@ public static void css() throws IOException
 	}
 	else if (intChoice ==2)
 		{
-			//Menu.whatWouldYouDo();
+			Menu.whatWouldYouDo();
 		}
 	
 }
