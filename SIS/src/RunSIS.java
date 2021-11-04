@@ -14,7 +14,6 @@ public class RunSIS
 		
 	public static void main(String[] args) throws IOException
 		{
-			
 			Scanner myFile = new Scanner(new File("SISFile.txt"));
 			
 			while(myFile.hasNext())
@@ -29,7 +28,7 @@ public class RunSIS
 			
 				Menu.whatWouldYouDo();
 				
-				//Collections.sort(listOfStudents, new LastnameSorter());
+			
 		
 				
 		}
