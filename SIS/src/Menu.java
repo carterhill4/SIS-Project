@@ -84,10 +84,11 @@ public class Menu {
 				{
 					for(int i = 0; i < 25; i++)
 						{
-					Collections.sort(RunSIS.listOfStudents, new LastnameSorter());
-					//System.out.println(LastnameSorter.compare(Student s1, Student s2));
-					break;
+							Collections.sort(RunSIS.listOfStudents, new LastnameSorter());
+							System.out.println(ListingStudents.listingStudent());
 						}
+					break;
+						
 				}
 			
 
