@@ -3,19 +3,19 @@ public class ChangeGrade
 	{
 		public static void changeGrades()
 		{
-		Scanner tannerInt = new Scanner(System.in);
-		Scanner tannerString = new Scanner(System.in);
+			Scanner tannerInt = new Scanner(System.in);
+			Scanner tannerString = new Scanner(System.in);
 		
-		System.out.println("Which student's grade would you like to change?");
+			System.out.println("Which student's grade would you like to change?");
 		
-		int index = 1;
+			int index = 1;
 		
-		//display students
-		for (Student s: RunSIS.listOfStudents)
-			{
-				System.out.println(index + ")  " + s.getFirstName() + " " + s.getLastName());
-				index++;
-			}
+			//display students
+			for (Student s: RunSIS.listOfStudents)
+				{
+					System.out.println(index + ")  " + s.getFirstName() + " " + s.getLastName());
+					index++;
+				}
 		
 		int studentChoice = tannerInt.nextInt();
 		

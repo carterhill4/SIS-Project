@@ -80,18 +80,16 @@ public class Menu {
 		switch(sorting) {
 		
 		case 1:
-
 				{
 					for(int i = 0; i < 25; i++)
 						{
 							Collections.sort(RunSIS.listOfStudents, new LastnameSorter());
-							System.out.println(ListingStudents.listingStudent());
+							System.out.println(RunSIS.listOfStudents.get(i).getFirstName() + " " + 
+							RunSIS.listOfStudents.get(i).getLastName());
 						}
-					break;
-						
+				
+					break;	
 				}
-			
-
 		case 2:
 			
 			break;
