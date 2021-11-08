@@ -87,15 +87,20 @@ public class Menu {
 							System.out.println(RunSIS.listOfStudents.get(i).getFirstName() + " " + 
 							RunSIS.listOfStudents.get(i).getLastName());
 						}
-				
+					
+					System.out.println("The students are sorted by lastname!");
+					
 					break;	
+					
 				}
 		case 2:
-			
-			break;
+				{
+					break;
+				}
 		case 3:
-			
+				{
 			break;
+				}
 		}
 		
 	}
