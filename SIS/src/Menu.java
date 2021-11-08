@@ -96,12 +96,15 @@ public class Menu {
 					
 				}
 		case 2:
-				{
-					
-					break;
-					
-				}
-		
+        {
+			System.out.println("Due to teammate ill, GPA sorting does not work.");
+			break;
+        }
+        
+      case 3:
+        {
+          break;
+        }
 		}
 		
 	}
