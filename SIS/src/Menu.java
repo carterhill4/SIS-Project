@@ -74,11 +74,13 @@ public class Menu {
 		
 		System.out.println(" ");
 		Scanner userInput1 = new Scanner(System.in);
-		System.out.println("Sort Students \n	(1) Sort by last name \n	(2) Sort by GPA (Currently Not an option) \n	(3) Sort by period");
+		System.out.println("Sort Students \n	(1) Sort by last name \n	(2) Sort by GPA (Currently Not an option) "
+				+ "\n	(3) Sort by period");
 		int sorting = userInput1.nextInt();
 		
-		switch(sorting) {
+		switch(sorting) {	
 		
+		//sort by lastname
 		case 1:
 				{
 
@@ -92,27 +94,31 @@ public class Menu {
 					
 					System.out.println("The students are sorted by lastname!");
 					
-					Menu.whatWouldYouDo();
+					LastnameSorter.displayMenu();
 					
 					break;	
 					
 				}
+				
+		//not available gpa sorter	
 		case 2:
         {
 			System.out.println("Due to teammate ill, GPA sorting does not work.");
 			Menu.whatWouldYouDo();
 			break;
         }
-        
+       
+        //period sorter
       case 3:
         {
         	PeriodSort.pSort();
-        	System.out.println(" listed by named");
+        	System.out.println();
+        	System.out.println("The students are sorted by period.");
 			Menu.whatWouldYouDo();
 
           break;
         }
-		}
+					}
 		
 	}
 	

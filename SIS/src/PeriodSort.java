@@ -9,6 +9,7 @@ public class PeriodSort
 		Collections.sort(RunSIS.listOfStudents, new LastnameSorter());
 		
 		RunSIS.listOfStudents.sort(Comparator.comparing(Student::getFirstClass));	
-	ListingStudents.listingStudent();	
+		
+		ListingStudents.listingStudent();	
 }
 }
