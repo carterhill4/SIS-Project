@@ -81,7 +81,7 @@ public class Menu {
 		
 		case 1:
 				{
-					for(int i = 0; i < 25; i++)
+					for(int i = 0; i < 24; i++)
 						{
 							Collections.sort(RunSIS.listOfStudents, new LastnameSorter());
 							System.out.println(RunSIS.listOfStudents.get(i).getFirstName() + " " + 
@@ -90,17 +90,18 @@ public class Menu {
 					
 					System.out.println("The students are sorted by lastname!");
 					
+					Menu.whatWouldYouDo();
+					
 					break;	
 					
 				}
 		case 2:
 				{
+					
 					break;
+					
 				}
-		case 3:
-				{
-			break;
-				}
+		
 		}
 		
 	}
