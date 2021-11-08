@@ -21,6 +21,8 @@ public class DeletingStudent
 		System.out.println("Which number of student would you like to delete?");
 		int deletedStudent = userIntInput.nextInt()-1;
 		RunSIS.listOfStudents.remove(deletedStudent);
+		
+		//restart with changes
 		ListingStudents.listingStudent();
 		Menu.whatWouldYouDo();
 		}
