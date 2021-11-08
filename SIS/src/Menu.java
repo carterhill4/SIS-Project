@@ -111,7 +111,8 @@ public class Menu {
       case 3:
         {
         	PeriodSort.pSort();
-        	System.out.println(" listed by named");
+        	System.out.println();
+        	System.out.println("The students are sorted by period.");
 			Menu.whatWouldYouDo();
 
           break;
