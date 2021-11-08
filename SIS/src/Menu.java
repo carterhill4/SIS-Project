@@ -77,7 +77,7 @@ public class Menu {
 		System.out.println("Sort Students \n	(1) Sort by last name \n	(2) Sort by GPA (Currently Not an option) \n	(3) Sort by period");
 		int sorting = userInput1.nextInt();
 		
-		switch(sorting) {
+		switch(sorting) {	
 		
 		case 1:
 				{
@@ -92,7 +92,7 @@ public class Menu {
 					
 					System.out.println("The students are sorted by lastname!");
 					
-					Menu.whatWouldYouDo();
+					LastnameSorter.displayMenu();
 					
 					break;	
 					
@@ -107,7 +107,7 @@ public class Menu {
         {
           break;
         }
-		}
+					}
 		
 	}
 	
