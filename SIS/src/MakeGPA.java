@@ -6,7 +6,7 @@ import java.io.IOException;
 public class MakeGPA
 	{
 		
-	public static double calculateGpa(String a, String b, String c)
+	public static double calculateGpa()
 		{
 		
 		

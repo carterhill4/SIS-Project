@@ -23,6 +23,7 @@ public class Student
 		thirdClass=tc;
 		thirdGrade =tg;
 		}
+	
 	public String getFirstName()
 		{
 			return firstName;
