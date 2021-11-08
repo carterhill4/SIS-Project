@@ -7,7 +7,7 @@ public class ListingStudents {
 
 	public static void listingStudent() throws IOException
 	{
-		int index = 1;
+		int index = 0;
 		
 	for(int i=0; i < RunSIS.listOfStudents.size(); i++)
 		{

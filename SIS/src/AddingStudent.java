@@ -9,6 +9,8 @@ public class AddingStudent {
 		
 		ListingStudents.listingStudent();
 		
+		double gpa = 0.0;
+		
 		System.out.println(" ");
 		Scanner userInput = new Scanner(System.in);
 		System.out.println("What is their first name?");
@@ -19,10 +21,6 @@ public class AddingStudent {
 		System.out.println("What is their last name?");
 		String lastName = userInput2.nextLine();
 		
-		System.out.println(" ");
-		Scanner userInput3 = new Scanner(System.in);
-		System.out.println("What is their gpa?");
-		double gpa = userInput3.nextDouble();
 		
 		System.out.println(" ");
 		Scanner userInput4 = new Scanner(System.in);

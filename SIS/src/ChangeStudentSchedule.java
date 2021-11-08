@@ -36,6 +36,7 @@ public static void css() throws IOException
 	System.out.println("3rd " + RunSIS.listOfStudents.get(studentChoice).getThirdClass());
 	System.out.println("Which class do you want to change");
 	int changeChoice= userInput.nextInt();
+	
 	System.out.println(" ");
 	switch(changeChoice)
 	{
@@ -74,6 +75,7 @@ public static void css() throws IOException
 						
 						
 			}
+			Menu.whatWouldYouDo();
 			break;
 			}
 		case 2:
@@ -114,7 +116,7 @@ public static void css() throws IOException
 						
 			}
 		
-		
+			Menu.whatWouldYouDo();
 			break;
 		
 	}
@@ -154,16 +156,9 @@ public static void css() throws IOException
 								
 								
 					}
+					Menu.whatWouldYouDo();
 					break;
 				}
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 	}
 	else if (intChoice ==2)
