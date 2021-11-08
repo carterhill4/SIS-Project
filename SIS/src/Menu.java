@@ -81,21 +81,32 @@ public class Menu {
 		
 		case 1:
 				{
+
 					for(int i=0; i < RunSIS.listOfStudents.size(); i++)
+
 						{
 							Collections.sort(RunSIS.listOfStudents, new LastnameSorter());
 							System.out.println(RunSIS.listOfStudents.get(i).getFirstName() + " " + 
 							RunSIS.listOfStudents.get(i).getLastName());
 						}
-				
+					
+					System.out.println("The students are sorted by lastname!");
+					
+					Menu.whatWouldYouDo();
+					
 					break;	
+					
 				}
 		case 2:
+        {
 			System.out.println("Due to teammate ill, GPA sorting does not work.");
 			break;
-		case 3:
-			
-			break;
+        }
+        
+      case 3:
+        {
+          break;
+        }
 		}
 		
 	}

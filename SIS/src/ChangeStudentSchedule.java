@@ -25,8 +25,10 @@ public static void css() throws IOException
 
 	int intChoice = userInput.nextInt();
 	if(intChoice==1) {
-	System.out.println("Which student do you want to change?");
+	
 	ListingStudents.listingStudent();
+	System.out.println(" ");
+	System.out.println("Which student do you want to change?");
 	int studentChoice= userInput.nextInt()-1;
 	System.out.println(RunSIS.listOfStudents.get(studentChoice).getFirstName() +" " + RunSIS.listOfStudents.get(studentChoice).getLastName());
 	System.out.println("1st " + RunSIS.listOfStudents.get(studentChoice).getFirstClass());	
@@ -73,7 +75,7 @@ public static void css() throws IOException
 						
 			}
 			break;
-			}//end iof case 1
+			}
 		case 2:
 				{
 					
