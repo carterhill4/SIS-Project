@@ -74,14 +74,16 @@ public class Menu {
 		
 		System.out.println(" ");
 		Scanner userInput1 = new Scanner(System.in);
-		System.out.println("Sort Students \n	(1) Sort by last name \n	(2) Sort by GPA \n	(3) Sort by period");
+		System.out.println("Sort Students \n	(1) Sort by last name \n	(2) Sort by GPA (Currently Not an option) \n	(3) Sort by period");
 		int sorting = userInput1.nextInt();
 		
 		switch(sorting) {
 		
 		case 1:
 				{
-					for(int i = 0; i < 24; i++)
+
+					for(int i=0; i < RunSIS.listOfStudents.size(); i++)
+
 						{
 							Collections.sort(RunSIS.listOfStudents, new LastnameSorter());
 							System.out.println(RunSIS.listOfStudents.get(i).getFirstName() + " " + 
