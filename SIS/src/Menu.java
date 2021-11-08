@@ -91,7 +91,7 @@ public class Menu {
 					break;	
 				}
 		case 2:
-			
+			System.out.println("Due to teammate ill, GPA sorting does not work.");
 			break;
 		case 3:
 			
