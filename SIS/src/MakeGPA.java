@@ -2,10 +2,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
+
 public class MakeGPA
 	{
 		
-	public static double calculateGpa()
+	public static double calculateGpa(String a, String b, String c)
 		{
 		
 		
@@ -18,7 +19,7 @@ public class MakeGPA
 			switch(a)
 				{
 				case "A+":
-					classOne = 4.00;
+					classOne = 4.30;
 					break;	
 				case "A":
 					classOne = 4.00;
@@ -61,7 +62,7 @@ public class MakeGPA
 			switch(b)
 			{
 			case "A+":
-				classTwo = 4.00;
+				classTwo = 4.30;
 				break;
 			case "A":
 				classTwo = 4.00;
@@ -105,7 +106,7 @@ public class MakeGPA
 			switch(c)
 			{
 			case "A+":
-				classThree = 4.00;
+				classThree = 4.30;
 				break;
 			case "A":
 				classThree = 4.00;
@@ -150,6 +151,8 @@ public class MakeGPA
 			double cumGpa = (classOne + classTwo + classThree) / 3;
 			
 			return cumGpa;
+			
+			
 			
 			}
 
