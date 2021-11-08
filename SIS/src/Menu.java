@@ -110,6 +110,10 @@ public class Menu {
         //period sorter
       case 3:
         {
+        	PeriodSort.pSort();
+        	System.out.println(" listed by named");
+			Menu.whatWouldYouDo();
+
           break;
         }
 					}
