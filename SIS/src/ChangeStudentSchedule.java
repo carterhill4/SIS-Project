@@ -34,6 +34,7 @@ public static void css() throws IOException
 	System.out.println("3rd " + RunSIS.listOfStudents.get(studentChoice).getThirdClass());
 	System.out.println("Which class do you want to change");
 	int changeChoice= userInput.nextInt();
+	System.out.println(" ");
 	switch(changeChoice)
 	{
 		case 1:
@@ -75,6 +76,7 @@ public static void css() throws IOException
 			}//end iof case 1
 		case 2:
 				{
+					
 			System.out.println("what class do you want to replace it with?");
 			System.out.println("1. Algebra");
 			System.out.println("2. Biology ");
@@ -85,7 +87,7 @@ public static void css() throws IOException
 				case 1:
 					{
 						RunSIS.listOfStudents.get(studentChoice).setSecondClass("Algebra");	
-						System.out.println("you switched the class");
+						System.out.println("You switched the class.");
 						css();
 						break;
 
@@ -93,7 +95,7 @@ public static void css() throws IOException
 				case 2:
 						{
 							RunSIS.listOfStudents.get(studentChoice).setSecondClass("Biology");	
-							System.out.println("you switched the class");
+							System.out.println("You switched the class.");
 							css();
 							break;
 
@@ -101,7 +103,7 @@ public static void css() throws IOException
 				case 3:
 						{
 							RunSIS.listOfStudents.get(studentChoice).setSecondClass("English");	
-							System.out.println("you switched the class");
+							System.out.println("You switched the class.");
 							css();	
 							break;
 
@@ -126,7 +128,7 @@ public static void css() throws IOException
 						case 1:
 							{
 								RunSIS.listOfStudents.get(studentChoice).setThirdClass("Algebra");	
-								System.out.println("you switched the class");
+								System.out.println("You switched the class.");
 								css();
 								break;
 
@@ -134,7 +136,7 @@ public static void css() throws IOException
 						case 2:
 								{
 									RunSIS.listOfStudents.get(studentChoice).setThirdClass("Biology");	
-									System.out.println("you switched the class");
+									System.out.println("You switched the class.");
 									css();
 									break;
 
@@ -142,7 +144,7 @@ public static void css() throws IOException
 						case 3:
 								{
 									RunSIS.listOfStudents.get(studentChoice).setThirdClass("English");	
-									System.out.println("you switched the class");
+									System.out.println("You switched the class.");
 									css();	
 									break;
 
