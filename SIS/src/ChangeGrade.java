@@ -11,8 +11,7 @@ public class ChangeGrade
 			Scanner tannerString = new Scanner(System.in);
 		
 			System.out.println("Which student's grade would you like to change?");
-			System.out.println();
-			System.out.println("Return to main menu. (type 'menu')");
+		
 			
 			int index = 1;
 		
@@ -24,8 +23,6 @@ public class ChangeGrade
 				}
 		
 		int studentChoice = tannerInt.nextInt();
-		
-		
 		
 	//display classes	
 	System.out.println("Do you want to change " +  
