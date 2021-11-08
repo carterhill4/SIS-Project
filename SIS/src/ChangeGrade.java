@@ -1,7 +1,12 @@
+import java.io.IOException;
 import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+
 public class ChangeGrade
 	{
-		public static void changeGrades()
+		public static void changeGrades() throws IOException
 		{
 			Scanner tannerInt = new Scanner(System.in);
 			Scanner tannerString = new Scanner(System.in);
@@ -61,6 +66,6 @@ public class ChangeGrade
 		}
 	System.out.println("Their new grade is a " + gradeChange);
 		
-	
+		Menu.whatWouldYouDo();
 	}
 }
